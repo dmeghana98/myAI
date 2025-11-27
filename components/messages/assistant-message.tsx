@@ -2,11 +2,13 @@ import { UIMessage, ToolCallPart, ToolResultPart } from "ai";
 import { Response } from "@/components/ai-elements/response";
 import { ReasoningPart } from "./reasoning-part";
 import { ToolCall, ToolResult } from "./tool-call";
+import { MessageAvatar } from "../ai-elements/message";
 
 export function AssistantMessage({ message, status, isLastMessage, durations, onDurationChange }: { message: UIMessage; status?: string; isLastMessage?: boolean; durations?: Record<string, number>; onDurationChange?: (key: string, duration: number) => void }) {
     return (
-        <div className="w-full">
-            <div className="text-sm flex flex-col gap-4">
+        <div className="w-full flex items-center gap-2">
+            <MessageAvatar src="/logo.png" name="Chatbot" />
+            <div className="max-w-lg w-fit px-4 py-3 rounded-[20px] bg-[#F5F5F5] text-gray-900">
                 {message.parts.map((part, i) => {
                     const isStreaming = status === "streaming" && isLastMessage && i === message.parts.length - 1;
                     const durationKey = `${message.id}-${i}`;
