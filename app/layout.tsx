@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MyAI3",
-  description: "MyAI3",
+  title: "Maha",
+  description: "MahaRERA Chatbot",
+  icons: {
+    icon: "/maharera-logo.png", 
+  }
 };
 
 export default function RootLayout({
