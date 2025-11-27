@@ -142,7 +142,6 @@ export default function Chat() {
         <div className="fixed top-0 left-0 right-0 z-50 bg-linear-to-b from-background via-background/50 to-transparent dark:bg-black overflow-visible pb-16">
           <div className="relative overflow-visible">
             <ChatHeader>
-              <ChatHeaderBlock />
               <ChatHeaderBlock className="justify-start items-center gap-3">
                 <Avatar
                   className="size-8 ring-1 ring-primary"
