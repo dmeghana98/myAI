@@ -143,7 +143,7 @@ export default function Chat() {
           <div className="relative overflow-visible">
             <ChatHeader>
               <ChatHeaderBlock />
-              <ChatHeaderBlock className="justify-left items-center">
+              <ChatHeaderBlock className="justify-start items-center">
                 <Avatar
                   className="size-8 ring-1 ring-primary"
                 >
