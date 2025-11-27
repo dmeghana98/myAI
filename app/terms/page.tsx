@@ -17,7 +17,7 @@ export default function Terms() {
                 <h2 className="text-2xl font-semibold">Terms of Use / Disclaimer</h2>
 
                 <p className="text-gray-700">
-                    The following terms govern your use of Maha ("AI Chatbot" or "I"), an artificial intelligence assistant provided by Maharashtra Real Estate Regulatory Authority ("MahaRERA"). By using MAHA, you agree to these terms. If you disagree, please discontinue use immediately.
+                    The following terms govern your use of Maha ("MAHA", "AI Chatbot" or "I"), an artificial intelligence assistant provided by Maharashtra Real Estate Regulatory Authority ("MahaRERA"). By using MAHA, you agree to these terms. If you disagree, please discontinue use immediately.
                 </p>
 
                 <div className="space-y-4">
@@ -43,6 +43,22 @@ export default function Terms() {
                             MAHA may be temporarily unavailable due to maintenance, technical issues, or other circumstances. MahaRERA reserves the right to modify, suspend, or discontinue my services at any time without notice.
                         </li>
                     </ol>
+                </div>
+
+                <div className="space-y-4">
+                    <h3 className="text-2xl font-semibold">What Maha Can Do</h3>
+
+                <p className="text-gray-700">
+                    Maha helps users easily understand Maharashtra RERA by explaining key provisions, homebuyer rights, and regulatory processes. It guides users through project (Form A) and agent (Form B) registrations, shows how to verify RERA-registered projects and agents, and outlines the steps for filing complaints. MAHA also clarifies developer obligations, timelines, and carpet area calculations, while helping users navigate various services available on the MahaRERA online portal.
+                </p>
+                </div>
+
+                <div className="space-y-4">
+                    <h3 className="text-2xl font-semibold">What Maha Cannot Do</h3>
+
+                <p className="text-gray-700">
+                    Maha cannot process official applications, registrations, or complaints, nor provide legal advice on disputes or agreements. It does not have access to confidential case files or real-time complaint status and cannot make decisions on behalf of MahaRERA. MAHA also cannot guarantee outcomes, issue official certificates or documents, or handle payments or financial transactions.
+                </p>
                 </div>
 
                 <div className="space-y-4">
@@ -143,7 +159,7 @@ export default function Terms() {
                 </p>
                 </div>
 
-                div className="space-y-4">
+                <div className="space-y-4">
                     <h3 className="text-2xl font-semibold">Intellectual Property</h3>
 
                 <p className="text-gray-700">
@@ -151,7 +167,7 @@ export default function Terms() {
                 </p>
                 </div>
 
-            div className="space-y-4">
+            <div className="space-y-4">
                     <h3 className="text-2xl font-semibold">Official Transactions - Use Official Channels</h3>
 
                 <p className="text-gray-700">
@@ -161,7 +177,7 @@ export default function Terms() {
                 <p className="text-gray-700">MAHA can guide you on procedures, but cannot perform official transactions. Visit maharera.mahaonline.gov.in or MahaRERA offices for formal processes.</p>
                 </div>
 
-        div className="space-y-4">
+        <div className="space-y-4">
                     <h3 className="text-2xl font-semibold">Third-Party Links</h3>
 
                 <p className="text-gray-700">
