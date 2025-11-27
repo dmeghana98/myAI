@@ -143,7 +143,7 @@ export default function Chat() {
           <div className="relative overflow-visible">
             <ChatHeader>
               <ChatHeaderBlock />
-              <ChatHeaderBlock className="justify-center items-center">
+              <ChatHeaderBlock className="justify-left items-center">
                 <Avatar
                   className="size-8 ring-1 ring-primary"
                 >
@@ -158,7 +158,7 @@ export default function Chat() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="cursor-pointer"
+                  className="ml-auto h-10 px-5 bg-[#F5F5F5] border border-black rounded-xl text-[#222] font-semibold hover:bg-white transition-colors"
                   onClick={clearChat}
                 >
                   <Plus className="size-4" />
