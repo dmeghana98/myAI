@@ -16,7 +16,7 @@ import { useChat } from "@ai-sdk/react";
 import { ArrowUp, Eraser, Loader2, Plus, PlusIcon, Square } from "lucide-react";
 import { MessageWall } from "@/components/messages/message-wall";
 import { ChatHeader } from "@/app/parts/chat-header";
-import { ChatHeader } from "@/app/parts/chat-header";
+import { ChatHeaderBlock } from "@/app/parts/chat-header";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { UIMessage } from "ai";
 import { useEffect, useState, useRef } from "react";
@@ -139,23 +139,32 @@ export default function Chat() {
   return (
     <div className="flex h-screen items-center justify-center font-sans dark:bg-black">
       <main className="w-full dark:bg-black h-screen relative">
-        <div className="fixed top-0 left-0 right-0 z-50 pb-16">
-          <div className="relative">
+        <div className="fixed top-0 left-0 right-0 z-50 bg-linear-to-b from-background via-background/50 to-transparent dark:bg-black overflow-visible pb-16">
+          <div className="relative overflow-visible">
             <ChatHeader>
-              <div className="flex w-full items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <img src="/logo.png" alt="Bot Logo" className="w-10 h-10 rounded-full bg-white object-cover" />
-                  <span className="text-white font-semibold text-lg">Chat with Meghana's Demo Bot</span>
-                </div>
+              <ChatHeaderBlock />
+              <ChatHeaderBlock className="justify-center items-center">
+                <Avatar
+                  className="size-8 ring-1 ring-primary"
+                >
+                  <AvatarImage src="/logo.png" />
+                  <AvatarFallback>
+                    <Image src="/logo.png" alt="Logo" width={36} height={36} />
+                  </AvatarFallback>
+                </Avatar>
+                <p className="tracking-tight">Chat with {AI_NAME}</p>
+              </ChatHeaderBlock>
+              <ChatHeaderBlock className="justify-end">
                 <Button
                   variant="outline"
                   size="sm"
-                  className="ml-auto h-10 px-5 bg-[#F5F5F5] border border-black rounded-xl text-[#222] font-semibold hover:bg-white transition-colors"
+                  className="cursor-pointer"
                   onClick={clearChat}
                 >
-                  + New Chat
+                  <Plus className="size-4" />
+                  {CLEAR_CHAT_TEXT}
                 </Button>
-              </div>
+              </ChatHeaderBlock>
             </ChatHeader>
           </div>
         </div>
