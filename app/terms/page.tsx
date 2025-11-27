@@ -13,42 +13,34 @@ export default function Terms() {
                     <ArrowLeftIcon className="w-4 h-4" />
                     Back to Chatbot
                 </Link>
-                <h1 className="text-3xl font-bold">MyAI3</h1>
+                <h1 className="text-3xl font-bold">Maha</h1>
                 <h2 className="text-2xl font-semibold">Terms of Use / Disclaimer</h2>
 
                 <p className="text-gray-700">
-                    The following terms of use govern access to and use of the MyAI3
-                    Assistant ("AI Chatbot"), an artificial intelligence tool provided by
-                    {OWNER_NAME} ("I", "me", or "myself"). By engaging with the AI
-                    Chatbot, you agree to these terms. If you do not agree, you may not
-                    use the AI Chatbot.
+                    The following terms govern your use of Maha ("AI Chatbot" or "I"), an artificial intelligence assistant provided by Maharashtra Real Estate Regulatory Authority ("MahaRERA"). By using MAHA, you agree to these terms. If you disagree, please discontinue use immediately.
                 </p>
 
                 <div className="space-y-4">
                     <h3 className="text-xl font-semibold">General Information</h3>
                     <ol className="list-decimal list-inside space-y-3">
                         <li className="text-gray-700">
-                            <span className="font-semibold">Provider and Purpose:</span> The
-                            AI Chatbot is a tool developed and maintained by {OWNER_NAME}. It
-                            is intended solely to assist users with questions and coursework
-                            related to courses taught by {OWNER_NAME}. The AI Chatbot is not
-                            affiliated with, endorsed by, or operated by the course provider.
+                            <span className="font-semibold">Provider and Purpose:</span> MAHA is developed by MahaRERA to assist users with information about real estate regulations in Maharashtra, including RERA registration procedures, project verification, complaint filing, homebuyer rights, and developer obligations under the Real Estate (Regulation and Development) Act, 2016. I am an informational tool, not a replacement for official MahaRERA procedures or legal consultation.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">Third-Party Involvement:</span>{" "}
-                            The AI Chatbot utilizes multiple third-party platforms and
-                            vendors, some of which operate outside the United States. Your
-                            inputs may be transmitted, processed, and stored by these
-                            third-party systems. As such, confidentiality, security, and privacy
-                            cannot be guaranteed, and data transmission may be inherently
-                            insecure and subject to interception.
+                            MAHA uses artificial intelligence technologies that may involve third-party platforms. Your queries may be processed and stored by these systems. Complete data security cannot be guaranteed, and transmission may be subject to standard internet risks.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">No Guarantee of Accuracy:</span>{" "}
-                            The AI Chatbot is designed to provide helpful and relevant
-                            responses but may deliver inaccurate, incomplete, or outdated
-                            information. Users are strongly encouraged to independently verify
-                            any information before relying on it for decisions or actions.
+                            I may provide inaccurate, incomplete, or outdated information. Maharashtra RERA regulations, fees, and compliance requirements change periodically. Always verify critical information through the official MahaRERA website (maharera.mahaonline.gov.in) or by contacting MahaRERA offices directly before making important decisions.
+                        </li>
+                        <li className="text-gray-700">
+                            <span className="font-semibold">Not Legal Advice:</span>{" "}
+                            My responses do not constitute legal advice or official government communication. I cannot interpret legal agreements, make determinations about RERA violations, or provide binding opinions on disputes. Consult qualified legal professionals or approach MahaRERA's official channels for matters requiring professional judgment.
+                        </li>
+                        <li className="text-gray-700">
+                            <span className="font-semibold">Service Availability:</span>{" "}
+                            MAHA may be temporarily unavailable due to maintenance, technical issues, or other circumstances. MahaRERA reserves the right to modify, suspend, or discontinue my services at any time without notice.
                         </li>
                     </ol>
                 </div>
@@ -57,41 +49,39 @@ export default function Terms() {
                     <h3 className="text-xl font-semibold">Liability</h3>
                     <ol className="list-decimal list-inside space-y-3">
                         <li className="text-gray-700">
-                            <span className="font-semibold">Use at Your Own Risk:</span> The
-                            AI Chatbot is provided on an "as-is" and "as-available" basis. To
-                            the fullest extent permitted by law:
+                            <span className="font-semibold">No Responsibility for Damages:</span> {OWNER_NAME}, MahaRERA, the Government of Maharashtra, and their representatives shall not be liable for any direct, indirect, financial, or consequential damages arising from:
                             <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
                                 <li>
-                                    {OWNER_NAME} disclaims all warranties, express or implied,
-                                    including but not limited to warranties of merchantability,
-                                    fitness for a particular purpose, and non-infringement.
+                                    Financial losses from property transactions or missed deadlines 
                                 </li>
                                 <li>
-                                    {OWNER_NAME} is not liable for any errors, inaccuracies, or
-                                    omissions in the information provided by the AI Chatbot.
+                                    Rejected applications due to incorrect information 
+                                </li>
+                                <li>
+                                    Loss of legal rights or remedies  
+                                </li>
+                                <li>
+                                    Reliance on MAHA's responses 
+                                </li>
+                                <li>
+                                    Service interruptions or data breaches
                                 </li>
                             </ul>
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">
-                                No Responsibility for Damages:
+                                Use at Your Own Risk:
                             </span>{" "}
-                            Under no circumstances shall {OWNER_NAME}, his collaborators,
-                            partners, affiliated entities, or representatives be liable for
-                            any direct, indirect, incidental, consequential, special, or
-                            punitive damages arising out of or in connection with the use of
-                            the AI Chatbot.
+                            MAHA is provided "as-is" without warranties of any kind. MahaRERA disclaims all warranties regarding accuracy, completeness, or fitness for any purpose.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">
-                                Modification or Discontinuation:
+                                Your Responsibility:
                             </span>{" "}
-                            I reserve the right to modify, suspend, or discontinue the AI
-                            Chatbot's functionalities at any time without notice.
+                            You are solely responsible for verifying information, checking project registrations, understanding your obligations, and making property-related decisions. Critical actions require verification through official channels and professional consultation.
                         </li>
                         <li className="text-gray-700">
-                            <span className="font-semibold">Future Fees:</span> While the AI
-                            Chatbot is currently provided free of charge, I reserve the right
+                            <span className="font-semibold">Future Fees:</span> While Maha is currently provided free of charge, I reserve the right
                             to implement a fee for its use at any time.
                         </li>
                     </ol>
@@ -101,8 +91,14 @@ export default function Terms() {
                     <h3 className="text-xl font-semibold">User Responsibilities</h3>
                     <ol className="list-decimal list-inside space-y-3">
                         <li className="text-gray-700">
-                            <span className="font-semibold">Eligibility:</span> Use of the AI
-                            Chatbot is restricted to individuals aged 18 or older.
+                            <span className="font-semibold">Eligibility:</span> Use of Maha is restricted to individuals aged 18 or older.
+                        </li>
+                        <li className="text-gray-700">
+                            <span className="font-semibold">You Must</span> 
+                            <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
+                                <li>Provide accurate information</li>
+                                <li>Use MAHA for lawful, informational purposes only</li>
+                            </ul>
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">Prohibited Conduct:</span> By
@@ -110,8 +106,8 @@ export default function Terms() {
                             <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
                                 <li>Post or transmit content that is defamatory, offensive, intimidating, illegal, racist, discriminatory, obscene, or otherwise inappropriate.</li>
                                 <li>Use the AI Chatbot to engage in unlawful or unethical activities.</li>
-                                <li>Attempt to compromise the security or functionality of the AI Chatbot</li>
-                                <li>Copy, distribute, modify, reverse engineer, decompile, or extract the source code of the AI Chatbot without explicit written consent.</li>
+                                <li>Attempt to compromise the security or functionality of Maha.</li>
+                                <li>Copy, distribute, modify, reverse engineer, decompile, or extract the source code of Maha without explicit written consent.</li>
                             </ul>
                         </li>
                     </ol>
@@ -125,12 +121,11 @@ export default function Terms() {
                             AI Chatbot does not guarantee privacy, confidentiality, or
                             security of the information you provide. Conversations may be
                             reviewed by {OWNER_NAME}, collaborators, partners, or affiliated
-                            entities for purposes such as improving the AI Chatbot, developing
-                            course materials, and conducting research.
+                            entities for purposes such as improving Maha.
                         </li>
                         <li className="text-gray-700">
                             <span className="font-semibold">Public Information:</span> Any
-                            information you provide through the AI Chatbot is treated as
+                            information you provide through Maha is treated as
                             public.
                         </li>
                         <li className="text-gray-700">
@@ -141,38 +136,47 @@ export default function Terms() {
                 </div>
 
                 <div className="space-y-4">
-                    <h3 className="text-xl font-semibold">Ownership of Content and Commercial Use</h3>
-                    <ol className="list-decimal list-inside space-y-3">
-                        <li className="text-gray-700">
-                            <span className="font-semibold">Surrender of Rights:</span> By
-                            using the AI Chatbot, you irrevocably assign and surrender all rights,
-                            title, interest, and intellectual property rights in any content, inputs
-                            you provide, and outputs generated by the AI Chatbot to {OWNER_NAME}.
-                            This includes, but is not limited to, text, questions, and conversations.
-                        </li>
-                        <li className="text-gray-700">
-                            <span className="font-semibold">Commercial and Research Use:</span>{" "}
-                            {OWNER_NAME} reserves the right to use any input provided by users and
-                            any output generated by the AI Chatbot for commercial purposes, research,
-                            or other activities without compensation or notification to users.
-                        </li>
-                        <li className="text-gray-700">
-                            <span className="font-semibold">No Claim to Gains or Profits:</span>{" "}
-                            Users agree that they have no rights, claims, or entitlement to
-                            any gains, profits, or benefits derived from the use or
-                            exploitation of the content provided to the AI Chatbot.
-                        </li>
-                    </ol>
+                    <h3 className="text-2xl font-semibold">Critical Warning</h3>
+
+                <p className="text-gray-700">
+                    Never share Aadhaar numbers, bank details, property documents, passwords, or confidential information through MAHA.
+                </p>
+                </div>
+
+                div className="space-y-4">
+                    <h3 className="text-2xl font-semibold">Intellectual Property</h3>
+
+                <p className="text-gray-700">
+                    All content, design, and functionality of MAHA are owned by MahaRERA and protected under Indian copyright, trademark, and IT laws. You receive a limited license for personal use only. You cannot reproduce, reverse engineer, or distribute MAHA's services.
+                </p>
+                </div>
+
+            div className="space-y-4">
+                    <h3 className="text-2xl font-semibold">Official Transactions - Use Official Channels</h3>
+
+                <p className="text-gray-700">
+                    For these actions, use official MahaRERA channels, NOT MAHA: Filing complaints against developers or agents, submitting project or agent registration applications, making payments for fees, renewals, or penalties, obtaining registration certificates or compliance documents, reporting RERA violations or fraudulent projects, matters with legal deadlines or requiring formal adjudication.
+                </p>
+
+                <p className="text-gray-700">MAHA can guide you on procedures, but cannot perform official transactions. Visit maharera.mahaonline.gov.in or MahaRERA offices for formal processes.</p>
+                </div>
+
+        div className="space-y-4">
+                    <h3 className="text-2xl font-semibold">Third-Party Links</h3>
+
+                <p className="text-gray-700">
+                    MAHA may link to developer websites or real estate portals. MahaRERA does not endorse these sites and is not responsible for their content or legitimacy. Always verify project registrations through official MahaRERA records, not external websites.
+                </p>
                 </div>
 
                 <div className="space-y-4">
                     <h3 className="text-xl font-semibold">Indemnification</h3>
                     <p className="text-gray-700">
-                        By using the AI Chatbot, you agree to indemnify and hold harmless
-                        {OWNER_NAME}, his collaborators, partners, affiliated entities, and
+                        By using the Maha, you agree to indemnify and hold harmless
+                        {OWNER_NAME}, collaborators, partners, affiliated entities, and
                         representatives from any claims, damages, losses, or liabilities
                         arising out of your use of the AI Chatbot or violation of these
-                        terms.
+                        terms. You agree to indemnify MahaRERA from any claims, damages, or costs arising from your violation of these terms or misuse of MAHA.
                     </p>
                 </div>
 
@@ -192,8 +196,9 @@ export default function Terms() {
                 <div className="space-y-4">
                     <h3 className="text-xl font-semibold">Acceptance of Terms</h3>
                     <p className="text-gray-700">
-                        By using the AI Chatbot, you confirm that you have read, understood,
-                        and agreed to these Terms of Use and Disclaimer. If you do not
+                        By using the Maha, you confirm that you have read, understood,
+                        and agreed to these Terms of Use and Disclaimer.You understand MAHA provides general information only, not legal advice. You will verify project registrations and critical information through official channels.
+                        You accept all liability limitations. You will use official channels for formal processes. If you do not
                         agree with any part of these terms, you may not use the AI Chatbot.
                     </p>
                 </div>
